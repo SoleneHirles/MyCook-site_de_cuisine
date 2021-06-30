@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> My Cook-Soumettre une recette </title>
+		<link rel="stylesheet" href="site.css"/>
+	</head>
+	
+	<body>
+			<header>
+				<img src="pictures/logo.png"/>
+			</header>
+
+
+		<nav>
+			<div id="menu1">
+				<a  href="index.html">Home</a>
+				<a  href="recettes.html">Les recettes</a>
+				<a  href="basique.html"> Les basiques </a>
+				<a href="soumettre.html">Soumettre recette</a>		
+			</div>	
+
+			<div id="menu2" >
+				<a href="contact.html"><img src="pictures/parametre.png"/></a>
+				<a href="aide-rapide"><img src="pictures/aide.jpg"/></a>				
+			</div>
+				
+		</nav>
+		<div id="conteneur">
+			<form>
+				<p > 
+					<h3>Bonjour à toi petit chef en herbe!</h3><br/><br/> Tu en as eu marre de suivre les recettes des autres? Tu as souhaité
+					propres expériences culinaires?<br/> Tu penses que ta création doit être reconnu et partager avec les autres? <br/>
+					<u>Alors tu es au bon endroit</u> <h6>(sinon je t'invite à te servir de la barre de navigation au-dessus pour aller 
+					découvrir les créations des autres petits chefs).</h6></Br> Il te suffit de remplir ce <s>petit</s> formulaire pour
+					<b>peut-être</b> voir ton chef d'oeuvres au milieu des autres.
+				</p>
+				<hr/>
+				<br/><br/>
+				<h2> <u>Formulaire pour soumettre sa recette</u></h2>
+				<br/>
+				<fieldset>
+					<legend id="title"> <b>Informations du chef</b></legend>
+					<br/>
+					<label for="pseudo">Votre nom de chef:</label>
+					<input type="text" name="pseudo"/><br/><br/>
+					<label for="email"> Une adresse-mail (pour vous contacter si nécessaire):</label>
+					<input type="email" name="email"/><br/><br/>
+					<label for="conseil">Votre conseil de chef pour cuisiner?</label><br/>
+					<textarea name="conseil" rows="3" cols="30"></textarea>
+				</fieldset>
+				<br/>
+				<fieldset>
+					<legend id="title"> <b>Informations sur la recette</b></legend><br/>
+					<label for="categories"> Dans quelle catégorie rangeriez-vous votre recette ?</label>
+					<select name="categorie">
+						<option value="aperitif">Apéritif</option>
+						<option value="burgerPizza">Burger,Pizza</option>
+						<option value="dessert">Dessert</option>
+						<option value="veganVegetarien">Vegan, Végétarien</option>
+						<option value="sansGluten"> Sans gluten</option>
+						<option value="simpleaFaire">Simple à faire</option>
+						<option value="autre"> Autre</option>
+					</select><br/><br/>
+					<label for="titre">Titre de la recette:</label>
+					<input type="text" name="titre"/><br/><br/>
+					<label for="ingredient">Veuillez rentrer les ingrédients nécessaires:</label><br/>
+					<textarea name="ingredient" rows="3" cols="35"></textarea><br/><br/>
+					<label for="descriptif">Veuillez décrire votre recette (les différentes étapes et le résultat)</label><br/>
+					<textarea name="descriptif" rows="5" cols="50"></textarea>
+				</fieldset>
+				<br/>
+				<fieldset>
+					<legend id="title"><b> La Parole au chef</b></legend>
+					<label for="expression">Quelques chose à ajouter? C'est le moment de vous exprimer!</label><br/>
+					<textarea name="expression" rows="5" cols="50"></textarea>
+				</fieldset>
+				<br/>
+				<input type="submit" value="Envoyer" />
+				<br/><br/>
+			</form>
+		</div>
+	</body>
+</html>

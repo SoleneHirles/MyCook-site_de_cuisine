@@ -1,0 +1,406 @@
+body{
+	margin:0vh;
+	text-decoration: none;
+	background-image: url(pictures/fond.jpg);
+}
+header{
+	height:  17vh;
+	width:  100%;
+	background: linear-gradient(#663535,#660000 );
+	overflow: hidden;
+
+}
+header img{
+	margin-left: 35%;
+	margin-top: -12vh;
+	height:40vh
+}
+/*barre de navigation---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+nav{
+	height:  7.5%;
+	width:  100%;
+	background: #660000;	
+	display: inline-flex;}
+#menu1{
+	width: 30%;
+	height: 100%;
+	margin-right: 63%;}
+#menu1 a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 3%;
+	margin-top:2%;
+	font-size: 150%;
+	text-align: center;}
+#menu1 a:hover {
+	color: #CC6600;
+	border-top: 1px solid #CC6600;}
+#menu2{
+	height: 100%;}
+#menu2 a img{
+	height: 7vh;}
+
+
+
+/*navigation rapide-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#quicknav{
+	background: rgba( 204, 204, 204,0.6);
+	height: 77.5%;
+	width: 42vh;
+	float: right;
+	overflow: auto;
+	opacity:1;}
+#quicknav h1{
+	text-align: center;
+	font-family:cursive;
+	opacity:1;}
+.newsrecette{
+	background: #bbb;
+	border-bottom:1px solid black;
+	height: 40vh;
+	opacity:1;}
+.newsrecette div{
+	opacity:1;
+	display: inline-flex;
+	background: #ddd;
+	height: 17.25vh;
+	width: 17.25vh;
+	margin:1.25vh;
+	}
+.newsrecette div a img {
+	height: 17.25vh;
+	width: 17.25vh;
+}
+.toprecette{
+	background: #bbb;
+	border-bottom:1px solid black;
+	height: 60vh;
+	width: 42vh;}
+.toprecette div{
+	display: inline-flex;
+	background: #ddd;
+	height: 17.25vh;
+	width: 17.25vh;
+	margin:1.52vh;}
+.toprecette div a img {
+	height: 17.25vh;
+	width: 17.25vh;
+}
+
+
+
+
+/*recette de saison--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.seasons{	
+background: rgba( 102, 53, 53,0.6);
+height:65%;
+width: 45%;
+margin-top: 2%;
+margin-left: 17.5%;
+border-top-left-radius: 25%;
+border-bottom-right-radius: 25%;
+border-bottom:7px double #660000;
+border-top: 7px double #660000; 
+position: relative;
+}
+.seasons h1{
+	font-family:fantasy;
+	margin-top: 0.25%;
+	text-align:center;
+	font-size: 3.5em;}
+.seasons div{
+	margin-top: -6%;
+	width:80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+.seasons div div {
+	border-radius: 25%;
+	margin: 3%;
+	overflow: hidden;
+	display: inline-flex;
+	background: #fff;
+	width: 27vh;
+	height: 25vh;
+	border: 1px solid orange;
+	box-shadow: 10px 5px #bbb;
+	}
+.seasons div div a img{
+	opacity: 1;
+	width: 100%;
+	height: 100%;}
+.seasons div div div{
+	box-shadow: none;}
+.titre{
+	position: absolute;
+	height:10%;
+	width: 100%;
+	}
+
+
+/*les desserts*/
+#desserts{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #9334A6;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+#simple{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #DCDBD4;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+#apero{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #2245BA;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+#vegan{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #76E045;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+#gluten{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #F1DD43;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+#piz{
+	background: #bbb;
+	opacity: 0.7;
+	align-items: center;
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom: 3px solid #F4152F;
+	height: 5%;
+	width:25%;
+	border-top: none;
+	margin-left:37.5%;
+	text-align: center;
+	padding-top: 0.75%;
+	font-size: 130%;
+	margin-bottom: 4.5%;
+text-decoration: none;}
+
+.selection div{
+	margin-top: 1.5%;
+	margin-left: 12.5%;
+	display: inline-flex;
+	width: 60vw;
+	height: 15vh;
+	overflow: auto;
+	border-bottom: 3px solid black;
+	background:  linear-gradient(to right,#660000,#663535 );}
+.selection div img{
+	width:15vh;
+	height: 15vh;}
+.selection div h1{
+	margin-left: 15%;
+    color: black;}
+.selection div h2{
+	color: black;
+	margin-left: 3vh;
+}
+#selection{
+	height: 60vh;
+	width: 80vw;
+	margin-left: 12%;
+	align-items: center;
+
+}
+
+
+
+/*recettte-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#recette{
+	background: #aaa;
+	width:60%;
+	height:80vh;
+	display: inline-flex;
+	margin-left: 20%;
+	margin-top: 3%;}
+
+.ingredient{
+	background: #bbb;
+	overflow: auto;
+	width: 25%;
+	height: 100%;}
+.ingredient img{
+	width: 100%;
+	height: 30%;}
+.ingredient h1{
+	text-align: center;
+}
+.etapes{
+	background: #ccc;
+	overflow: auto;
+	width: 75%;}
+.etapes h1{
+	font-family:fantasy;
+	margin-left: 0.5%;
+	font-size: 3em;
+	text-align: center;}
+/* .similaires{ */
+	/* background: #bbb; */
+	/* border-bottom:1px solid black; */
+	/* height: 40vh; */
+	/* opacity:1;} */
+/* .similaires div{ */
+	/* opacity:1; */
+	/* display: inline-flex; */
+	/* background: #ddd; */
+	/* height: 17.75vh; */
+	/* width: 17.75vh; */
+	/* margin:1vh; */
+	/* opacity:1;} */
+
+/*nouvelle recette------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#news_recette{
+	margin-left: 37.5vw;
+	width: 25vw;
+	height: 60vh;
+	background: rgba( 125, 125, 125,0.6);
+}
+#news_recette h3{
+	text-align: center;
+}
+#bouton{
+	margin-top: 3vh;
+	margin-left: 10vw;
+}
+textarea{
+	width: 23vw;
+	height: 15vh;
+}
+
+/*aide rapide--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#presentation{
+	background: rgba( 109, 219, 220,0.8);
+	width: 75%;
+	margin-left:12.5%;
+	text-align: center;
+}
+
+
+
+
+
+
+/* -------------------------- */
+
+
+.parent:hover div.child2{
+	opacity: 0.6; }
+.parent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.child2 {
+	text-decoration: none;
+	height: 25%;
+	width: 100%;
+    z-index: 1;
+    background: #aaa;
+    opacity: 0;
+    font-size: 4em;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 0px;
+    }
+   a{
+   	text-decoration: none;
+   }
+/*les basique-----------------------------------------------------------------------------------------------------------------------------*/
+#labase{  
+	background: rgba( 102, 53, 53,0.6);
+   	width:75%; 
+	height:100%;
+   	margin-left: 12.5%;
+   	border-top-right-radius:  15%;
+   	border-top-left-radius: 15%;
+   	border-top: 6px double gold;
+   	margin-top: 3vh;
+}
+#labase div{
+    display: inline-bloc;
+    margin-left: 9vw;
+	margin-bottom:3.5vh;
+	margin-top:3.5vh;
+}
+
+#labase h1{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+
+

@@ -1,0 +1,175 @@
+
+body{
+	margin:0vh;
+	text-decoration: none;
+	background-image: url(pictures/fond.jpg);
+}
+header{
+	height:  17vh;
+	width:  100%;
+	background: linear-gradient(#663535,#660000 );
+	overflow: hidden;
+
+}
+header img{
+	margin-left: 35%;
+	margin-top: -12vh;
+	height:40vh
+}
+/*barre de navigation---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+nav{
+	height:  7.5%;
+	width:  100%;
+	background: #660000;	
+	display: inline-flex;}
+#menu1{
+	width: 30%;
+	height: 100%;
+	margin-right: 63%;}
+#menu1 a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 3%;
+	margin-top:2%;
+	font-size: 150%;
+	text-align: center;}
+#menu1 a:hover {
+	color: #CC6600;
+	border-top: 1px solid #CC6600;}
+#menu2{
+	height: 100%;}
+#menu2 a img{
+	height: 7vh;}
+
+
+/* ----------------------------------------Recettes----------------------------------- */
+#div0{
+	margin-left:auto;
+	margin-right:auto;
+	height:100vh;
+}
+
+#apero{
+	background: #2245BA;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+
+#dessert{
+	background:#9334A6;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+
+#vegan{
+	background:#76E045;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#pizza{
+	background: #F4152F;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gluten{
+	background: #F1DD43;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#simple{
+	background: #DCDBD4;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#div{
+	display:inline-block;
+}
+
+.divclass{
+	margin-left:0%;
+	margin-right:50%;
+	width:50%;
+}
+
+
+#div section{
+	height:25vh;
+	width:25vh;
+	margin-bottom:5%;
+	box-shadow: 10px 5px 5px #0B0719;
+	border: 15px double #1C1C1C;
+}
+
+.divclass1 {
+	margin-left:50%;
+	margin-right:0%;
+	width:50%;
+}
+
+.parent:hover div.child2{
+	opacity: 0.6; }
+.parent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.child2 {
+	text-decoration: none;
+	height: 75%;
+	width: 100%;
+    z-index: 1;
+    background: #aaa;
+    opacity: 0;
+    font-size: 2.5em;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 0px;
+    }
+  a{
+   	text-decoration: none;
+   }
+
+/* ----------------------------------Soumettre une recette--------------------------------------------------- */
+
+form{
+	background:#ECD08B;
+	border: 1px black solid;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+}
+
+#conteneur{
+	background:green;
+	width:60vw;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#title{
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px double #1815AF;
+}
+
+
+/* ----------------------------------------Contact--------------------------------------------- */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> My Cook- Contact </title>
+		<link rel="stylesheet" href="site.css"/>
+	</head>
+	
+	<body>
+		<header>
+				<img src="pictures/logo.png"/>
+			</header>
+
+
+		<nav>
+			<div id="menu1">
+				<a  href="index.html">Home</a>
+				<a  href="recettes.html">Les recettes</a>
+				<a  href="basique.html"> Les basiques </a>
+				<a href="soumettre.html">Soumettre recette</a>		
+			</div>	
+
+			<div id="menu2" >
+				<a href="contact.html"><img src="pictures/parametre.png"/></a>
+				<a href="aide-rapide.html"><img src="pictures/aide.jpg"/></a>				
+			</div>
+				
+		</nav>
+		
+		<div id="conteneur">
+			<form>
+				<br/>
+				<h2> <u>Formulaire pour nous contacter</u></h2>
+				<br/>
+				Vous avez repérer des problèmes sur le site? vous avez des sugestions à nous apporter? Vous avez simplement des questions sans réponse?
+				Il suffit de remplir ce formulaire et nous vous répondrons.
+				<br/><br/>
+				<label for="pseudo">Votre nom/ pseudo:</label>
+				<input type="text" name="pseudo"/><br/><br/>
+				<label for="email"> Une adresse-mail :</label>
+				<input type="email" name="email"/><br/><br/>
+				<label for="objet">Objet de votre demande:</label></br>
+				<input type="radio" name="objet" /><label name="objet"> Signaler un problème</label><br/>
+				<input type="radio" name="objet" /><label name="objet"> Suggestions</label><br/>
+				<input type="radio" name="objet" /><label name="objet"> Autre</label><br/><br/>
+				<label for="expression">Votre demande:</label><br/><br/>
+				<textarea name="expression" rows="5" cols="50"></textarea>
+				<br/><br/>
+				<input type="submit" value="Envoyer" />
+				<br/><br/>
+			</form>
+		</div>
+	</body>
+</html>
